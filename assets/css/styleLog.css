@@ -1,0 +1,40 @@
+.rato {
+    font-size:36px;
+    -webkit-background-clip: text;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    background-color:#FFF;
+    background-image: -webkit-gradient(linear,left top,right top,from(#d12929), to(#1b0ddd));
+    background-image: -o-linear-gradient(left,#4d4a48,#1b4216,#3679c5,#b8b6ca,#52ca79);
+  }
+
+body{
+    animation: bg 1000ms linear infinite;
+}
+
+@keyframes bg {
+    0%{background-color: coral;}
+    25%{background-color: rgb(55, 192, 66);}
+    50%{background-color: cornflowerblue;}
+    70%{background-color: rgb(190, 78, 181);}
+    100%{background-color: coral;}
+    
+}
+
+@keyframes cubo{
+    0%{width: 0px; height: 0px;}
+    33%{width: 60px; height: 40px;}
+    66%{width: 85px; height: 48px;}
+}
+input{
+  margin-bottom: 10px;
+}
+
+.cubo{
+  animation: cubo 500ms linear;
+
+}
+
+a{
+  margin-bottom: 15px;
+}

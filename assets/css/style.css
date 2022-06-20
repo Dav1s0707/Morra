@@ -1,0 +1,12 @@
+input{
+    margin-bottom: 10px;
+}
+
+.cubo{
+    animation: cubo 500ms linear;
+
+}
+
+a{
+    margin-bottom: 15px;
+}
